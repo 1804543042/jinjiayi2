@@ -1,0 +1,177 @@
+{
+  "id": "4296214",
+  "name": "三级项目-Wealth-1",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "6246336",
+      "name": "皇冠",
+      "font_class": "huangguan",
+      "unicode": "e653",
+      "unicode_decimal": 58963
+    },
+    {
+      "icon_id": "729130",
+      "name": "我的基金",
+      "font_class": "jijin",
+      "unicode": "e611",
+      "unicode_decimal": 58897
+    },
+    {
+      "icon_id": "16746105",
+      "name": "全部",
+      "font_class": "quanbu",
+      "unicode": "e609",
+      "unicode_decimal": 58889
+    },
+    {
+      "icon_id": "20226403",
+      "name": "存款",
+      "font_class": "cunkuan",
+      "unicode": "e622",
+      "unicode_decimal": 58914
+    },
+    {
+      "icon_id": "33096093",
+      "name": "理财产品",
+      "font_class": "licaichanpin",
+      "unicode": "100f2",
+      "unicode_decimal": 65778
+    },
+    {
+      "icon_id": "2076278",
+      "name": " 保险订单",
+      "font_class": "baoxiandingdan",
+      "unicode": "e895",
+      "unicode_decimal": 59541
+    },
+    {
+      "icon_id": "15112689",
+      "name": "外汇买卖",
+      "font_class": "waihuimaimai",
+      "unicode": "e606",
+      "unicode_decimal": 58886
+    },
+    {
+      "icon_id": "16043422",
+      "name": "养老保险费缓缴",
+      "font_class": "yanglaobaoxianfeihuanjiao",
+      "unicode": "e61b",
+      "unicode_decimal": 58907
+    },
+    {
+      "icon_id": "28984858",
+      "name": "贵金属",
+      "font_class": "guijinshu",
+      "unicode": "e681",
+      "unicode_decimal": 59009
+    },
+    {
+      "icon_id": "33011016",
+      "name": "限制消费令",
+      "font_class": "xianzhixiaofeiling",
+      "unicode": "e742",
+      "unicode_decimal": 59202
+    },
+    {
+      "icon_id": "1314143",
+      "name": "业务人员信息管理",
+      "font_class": "yewurenyuanxinxiguanli",
+      "unicode": "e60e",
+      "unicode_decimal": 58894
+    },
+    {
+      "icon_id": "6460232",
+      "name": "生活缴费",
+      "font_class": "shenghuojiaofei",
+      "unicode": "e627",
+      "unicode_decimal": 58919
+    },
+    {
+      "icon_id": "8773941",
+      "name": "i找资金",
+      "font_class": "izhaozijin",
+      "unicode": "e6c6",
+      "unicode_decimal": 59078
+    },
+    {
+      "icon_id": "33820519",
+      "name": "业务_豆子",
+      "font_class": "yewu_douzi",
+      "unicode": "e680",
+      "unicode_decimal": 59008
+    },
+    {
+      "icon_id": "11372685",
+      "name": "扫一扫",
+      "font_class": "saoyisao",
+      "unicode": "e8b5",
+      "unicode_decimal": 59573
+    },
+    {
+      "icon_id": "201228",
+      "name": "3.1我的",
+      "font_class": "31wode",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "586728",
+      "name": "alisis",
+      "font_class": "alisis",
+      "unicode": "e690",
+      "unicode_decimal": 59024
+    },
+    {
+      "icon_id": "796472",
+      "name": "生活",
+      "font_class": "shenghuo1",
+      "unicode": "e625",
+      "unicode_decimal": 58917
+    },
+    {
+      "icon_id": "2076426",
+      "name": "搜索小",
+      "font_class": "sousuoxiao",
+      "unicode": "e8d6",
+      "unicode_decimal": 59606
+    },
+    {
+      "icon_id": "4244909",
+      "name": "023-语音输入中",
+      "font_class": "-yuyinshuruzhong",
+      "unicode": "e60a",
+      "unicode_decimal": 58890
+    },
+    {
+      "icon_id": "9673169",
+      "name": "消息",
+      "font_class": "xiaoxi",
+      "unicode": "e60b",
+      "unicode_decimal": 58891
+    },
+    {
+      "icon_id": "9713067",
+      "name": "客服",
+      "font_class": "kefu",
+      "unicode": "e686",
+      "unicode_decimal": 59014
+    },
+    {
+      "icon_id": "15112769",
+      "name": "财富",
+      "font_class": "caifu",
+      "unicode": "e613",
+      "unicode_decimal": 58899
+    },
+    {
+      "icon_id": "33986999",
+      "name": "首页-置灰",
+      "font_class": "shouye-zhihui",
+      "unicode": "e61d",
+      "unicode_decimal": 58909
+    }
+  ]
+}

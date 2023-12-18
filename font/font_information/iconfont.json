@@ -1,0 +1,44 @@
+{
+  "id": "4371542",
+  "name": "三级项目 information",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "201525",
+      "name": "礼物 活动",
+      "font_class": "liwuhuodong",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "2076264",
+      "name": "闹钟",
+      "font_class": "naozhong",
+      "unicode": "e890",
+      "unicode_decimal": 59536
+    },
+    {
+      "icon_id": "2462876",
+      "name": "喇叭",
+      "font_class": "icon-test",
+      "unicode": "e673",
+      "unicode_decimal": 58995
+    },
+    {
+      "icon_id": "2767650",
+      "name": "资讯",
+      "font_class": "zixun",
+      "unicode": "e730",
+      "unicode_decimal": 59184
+    },
+    {
+      "icon_id": "27546738",
+      "name": "客户经理首页",
+      "font_class": "kehujinglishouye",
+      "unicode": "e630",
+      "unicode_decimal": 58928
+    }
+  ]
+}

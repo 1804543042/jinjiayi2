@@ -1,0 +1,44 @@
+{
+  "id": "4296523",
+  "name": "三级项目-Live-yanse",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "201228",
+      "name": "3.1我的",
+      "font_class": "wode-se",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "586728",
+      "name": "alisis",
+      "font_class": "alisis-se",
+      "unicode": "e690",
+      "unicode_decimal": 59024
+    },
+    {
+      "icon_id": "796472",
+      "name": "生活",
+      "font_class": "shenghuo1-se",
+      "unicode": "e625",
+      "unicode_decimal": 58917
+    },
+    {
+      "icon_id": "15112769",
+      "name": "财富",
+      "font_class": "caifu-se",
+      "unicode": "e613",
+      "unicode_decimal": 58899
+    },
+    {
+      "icon_id": "33986999",
+      "name": "首页-置灰",
+      "font_class": "shouye-zhihui-se",
+      "unicode": "e61d",
+      "unicode_decimal": 58909
+    }
+  ]
+}

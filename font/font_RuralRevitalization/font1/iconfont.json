@@ -1,0 +1,107 @@
+{
+  "id": "4296537",
+  "name": "三级项目-RuralRevitalization-1",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "28981925",
+      "name": "重要",
+      "font_class": "zhongyao",
+      "unicode": "e6d9",
+      "unicode_decimal": 59097
+    },
+    {
+      "icon_id": "9748085",
+      "name": "商城",
+      "font_class": "shangcheng",
+      "unicode": "e644",
+      "unicode_decimal": 58948
+    },
+    {
+      "icon_id": "18922182",
+      "name": "公益",
+      "font_class": "gongyi",
+      "unicode": "e744",
+      "unicode_decimal": 59204
+    },
+    {
+      "icon_id": "21899153",
+      "name": "icon-流星",
+      "font_class": "icon-taikong4",
+      "unicode": "e645",
+      "unicode_decimal": 58949
+    },
+    {
+      "icon_id": "23034095",
+      "name": "房子3",
+      "font_class": "fangzi3",
+      "unicode": "e8bb",
+      "unicode_decimal": 59579
+    },
+    {
+      "icon_id": "201228",
+      "name": "3.1我的",
+      "font_class": "31wode",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "586728",
+      "name": "alisis",
+      "font_class": "alisis",
+      "unicode": "e690",
+      "unicode_decimal": 59024
+    },
+    {
+      "icon_id": "796472",
+      "name": "生活",
+      "font_class": "shenghuo1",
+      "unicode": "e625",
+      "unicode_decimal": 58917
+    },
+    {
+      "icon_id": "2076426",
+      "name": "搜索小",
+      "font_class": "sousuoxiao",
+      "unicode": "e8d6",
+      "unicode_decimal": 59606
+    },
+    {
+      "icon_id": "4244909",
+      "name": "023-语音输入中",
+      "font_class": "-yuyinshuruzhong",
+      "unicode": "e60a",
+      "unicode_decimal": 58890
+    },
+    {
+      "icon_id": "5759518",
+      "name": "切换",
+      "font_class": "qiehuan",
+      "unicode": "e789",
+      "unicode_decimal": 59273
+    },
+    {
+      "icon_id": "11372685",
+      "name": "扫一扫",
+      "font_class": "saoyisao",
+      "unicode": "e8b5",
+      "unicode_decimal": 59573
+    },
+    {
+      "icon_id": "15112769",
+      "name": "财富",
+      "font_class": "caifu",
+      "unicode": "e613",
+      "unicode_decimal": 58899
+    },
+    {
+      "icon_id": "33986999",
+      "name": "首页-置灰",
+      "font_class": "shouye-zhihui",
+      "unicode": "e61d",
+      "unicode_decimal": 58909
+    }
+  ]
+}

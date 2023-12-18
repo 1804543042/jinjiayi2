@@ -1,0 +1,328 @@
+/* 全局变量 */
+.icon {
+    width: 1em;
+    height: 1em;
+    vertical-align: -0.15em;
+    fill: currentColor;
+    overflow: hidden;
+  }
+  ul{
+      list-style: none;
+  }
+  body,ul,p,h3{
+      padding: 0;
+      margin: 0;
+  }
+  a{
+      text-decoration: none;
+  }
+  /* -------------下导航------------- */
+  .bnav{
+      /* 固定 */
+      position: fixed;
+      width: 100%;
+      left: 0;
+      bottom: 0;
+      background-color: #eee;/* 没有背景，设置为白色#fff */
+      z-index: 9;
+  }
+  body{
+      margin-bottom: 50px;/* 加下导航也能看全 */
+  }
+  .bnav ul{
+      display: flex;
+  }
+  .bnav li{
+      width: 20%;
+      display: flex;
+      justify-content: center;
+  }
+  .bnav div{
+      text-align: center;
+      position: relative;
+  }
+  .bnav svg{
+      font-size: 30px;
+  }
+  .bnav p{
+      font-size: 14px;
+      line-height: 20px;
+  }
+  .bnav a{
+      color: #333;
+  }
+  #q{
+    color: rgb(26, 250, 41);
+  }
+
+/* -------------上导航------------- */
+.top{
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0;
+    background-color: #fff;/* 没有背景，设置为白色#fff */
+    /* background-color: rgba(0, 0, 0, .5); */
+    z-index: 9;
+}
+.TopBox{
+    margin: 5px 20px;
+}
+.TopBoxLeft{
+    float: left;
+    text-align: center;
+}
+.TopBoxRight{
+    float: right;
+    display: flex;
+    text-align: center;
+}
+.box{
+    margin: 3px;
+}
+.icon-tuichu, .icon-sousuo, .icon-shezhi, .icon-more{
+    font-size: 14px;
+}
+.TopBox p{
+    font-size: 14px;
+}
+
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+ul {
+    list-style: none;
+}
+
+.nav {
+    text-align: center;
+    overflow: hidden;
+}
+
+.nav>li {
+    float: left;
+}
+
+.nav>li>a {
+    /* border: 1px solid rgb(199, 186, 6); */
+    display: block;
+    /* width: 130px; */
+}
+
+.nav ul {
+    /* background-color: rgb(199, 186, 6); */
+    padding: 5px 10px;
+    border: 1px solid #eee;
+    line-height: 30px;
+    display: none;
+}
+
+.nav ul>li:hover {
+    background-color: yellow;
+}
+
+
+
+
+/* -------------头像------------- */
+.midFir{
+    margin-top: 70px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.midFirBox{ 
+    display: flex;
+    width: 100%;
+    /* margin-bottom: 30px; */
+    background-color: #fff;
+    padding: 30px 0;
+    margin-top: 10px;
+}
+.FirLeft{
+    text-align: center;
+    width: 15%;
+    border-radius: 50%;
+}
+.FirLeft img{
+    width: 60px;
+}
+.Txt{
+    margin-left: 15px;
+    width: 85%;
+}
+.RightL{
+    float: left;
+}
+.RightR{
+    float: right;
+    margin-right: 10px;
+    border: 1px solid #000;
+    border-radius: 16px;
+}
+.RightR span{
+    padding: 3px;
+}
+.Txt p{
+    font-weight: 800;
+    font-size: 20px;
+}
+.Txt span{
+    font-size: 12px;
+    color: #888;
+}
+
+/* -------------资产负债------------- */
+.midSecTopBox{
+    margin: 0 20px;
+}
+.midSecOutBox{
+    border-radius: 20px;
+    border: 1px solid #000;
+    background-color: #cc0;
+}
+.midSecTop{
+    margin-left: 15px;
+    margin: 20px;
+}
+
+.midSecBotBox{
+    display: flex;
+    background-color: #fff;
+}
+.midSecFont{
+    width: 25%;
+    justify-content: center;
+    text-align: center;
+    /* position: relative; */
+    margin: 20px 0;
+}
+.icon-jijin{
+    font-size: 30px;
+}
+.icon-licaichanpin{
+    font-size: 30px;
+}
+.icon-baoxiandingdan{
+    font-size: 30px;
+}
+.icon-wodeyuanbao{
+    font-size: 30px;
+}
+
+/* -------------我的订单------------- */
+.midThi{
+    margin-top: 30px;
+}
+.midThiTopBox{
+    margin: 0 20px;
+}
+.midThiOutBox{
+    border-radius: 20px;
+    border: 1px solid #000;
+}
+.midThiTop{
+    margin-left: 15px;
+    margin: 20px;
+}
+
+.midThiBotBox{
+    display: flex;
+}
+.midThiFont{
+    width: 25%;
+    justify-content: center;
+    text-align: center;
+    /* position: relative; */
+    margin: 20px 0;
+}
+.icon-quanbudingdan{
+    font-size: 30px;
+}
+.icon-daifahuo1{
+    font-size: 30px;
+}
+.icon-daifahuo{
+    font-size: 30px;
+}
+.icon-yiwancheng{
+    font-size: 30px;
+}
+
+/* -------------安全中心------------- */
+.midFou{
+    margin-top: 30px;
+}
+.midFouTopBox{
+    margin: 0 20px;
+}
+.midFouOutBox{
+    border-radius: 20px;
+    border: 1px solid #000;
+}
+.midFouTop{
+    margin-left: 15px;
+    margin: 20px;
+}
+.midFouBotBox{
+    display: flex;
+}
+.midFouFont{
+    width: 25%;
+    justify-content: center;
+    text-align: center;
+    /* position: relative; */
+    margin: 20px 0;
+}
+.icon-login{
+    font-size: 30px;
+}
+.icon-zijinzhuanzhang{
+    font-size: 30px;
+}
+.icon-zhifushezhi{
+    font-size: 30px;
+}
+.icon-shoujihao{
+    font-size: 30px;
+}
+
+/* -------------我的网点------------- */
+.midFiv{
+    margin-top: 30px;
+}
+.midFivTopBox{
+    margin: 0 20px;
+}
+.midFivOutBox{
+    border-radius: 20px;
+    border: 1px solid #000;
+}
+.midFivTop{
+    margin-left: 15px;
+    margin: 20px;
+}
+.midFivBotBox{
+    display: flex;
+}
+.midFivFont{
+    width: 25%;
+    justify-content: center;
+    text-align: center;
+    /* position: relative; */
+    margin: 20px 0;
+}
+.icon-quanyuankaidian{
+    font-size: 30px;
+}
+.icon-yijianbangka{
+    font-size: 30px;
+}
+.icon-wukaqukuan{
+    font-size: 30px;
+}
+.icon-chengshijinglitianch{
+    font-size: 30px;
+}

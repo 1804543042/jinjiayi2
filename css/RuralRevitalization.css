@@ -1,0 +1,349 @@
+/* 全局变量 */
+.icon {
+    width: 1em;
+    height: 1em;
+    vertical-align: -0.15em;
+    fill: currentColor;
+    overflow: hidden;
+  }
+  body,p,h4,span,h3,ul{
+      padding: 0;
+      margin: 0;
+  }
+  a{
+      text-decoration: none;
+  }
+
+/* -------------下导航------------- */
+  .bnav{
+      /* 固定 */
+      position: fixed;
+      width: 100%;
+      left: 0;
+      bottom: 0;
+      background-color: #eee;/* 没有背景，设置为白色#fff */
+      z-index: 9;
+  }
+  body{
+      margin-bottom: 50px;/* 加下导航也能看全 */
+  }
+  .btnav{
+    display: flex;
+  }
+.bonav{
+    width: 20%;
+    justify-content: center;
+    text-align: center;
+    /* position: relative; */
+}
+.bonav svg{
+    font-size: 30px;
+}
+.bonav p{
+    font-size: 14px;
+    line-height: 20px;
+}
+#q{
+    color: rgb(26, 250, 41);
+  }
+.bonav a{
+    color: #333;
+} 
+
+/* -------------上导航------------- */
+.top{
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0;
+    background-color: #333;/* 没有背景，设置为白色#fff */
+    background-color: rgba(0, 0, 0, .5);
+    z-index: 9;
+}
+.topt{
+    justify-content: center;
+    text-align: center;
+}
+.topt p{
+    font-size: 12px;
+}
+.topt svg{
+    font-size: 20px;
+    margin: 0 4px;
+}
+.topo{
+    display: flex;
+    padding: 6px 12px;
+} 
+.top a{
+    color: #333;
+}
+.search-container{
+    border-radius: 15px;
+    background-color: #fff;
+    display: flex;
+    flex-grow: 1;
+}
+.icon-sousuoxiao{
+    margin: 12px 12px;
+    font-size: 14px;
+}
+#search{
+    border: none;
+    outline: none;/* 轮廓去掉 */
+    flex-grow: 1;
+    margin-right: 20px;
+}
+.imgbc{
+    display: flex;
+}
+.imgbco{
+    width: 1200px;
+    flex-grow: 1;
+}
+.imgbc img{
+    width: 100%;
+}
+
+/* -------------兴农商城------------- */
+.midFir{
+    margin-top: 100px;
+}
+.midFirOutBox{
+    border: 1px solid #eee;
+    border-radius: 16px;
+    margin: 30px;
+    display: flex;
+    box-shadow: 5px 5px 5px #eee;
+}
+.midFirMod{
+    width: 25%;
+    justify-content: center;
+    text-align: center;
+    /* position: relative; */
+    margin: 20px 0;
+}
+.icon-shangcheng{
+    font-size: 30px;
+    box-shadow: 8px 7px 5px rgb(9, 218, 163);
+}
+.icon-fangzi3{
+    font-size: 30px;
+    box-shadow: 8px 7px 5px rgb(255, 155, 105);
+}
+.icon-gongyi{
+    font-size: 30px;
+    box-shadow: 8px 7px 5px rgb(9, 218, 163);
+}
+.icon-icon-taikong4{
+    font-size: 30px;
+    box-shadow: 8px 7px 5px rgb(255, 155, 105);
+}
+.midFirMod p{
+    margin-top: 20px;
+}
+
+/* -------------重要 滚动效果------------- */
+.midSec{
+    margin: 0 30px;
+    border-top: 1px solid #000;
+}
+.midSecBox{
+    display: flex;
+    justify-content: center;
+}
+.title{
+    float: left;
+    font-size: 16px;
+    font-weight: normal;
+    margin: 0;
+    margin-left: 20px;
+    margin-top: 5px;
+}
+.icon-zhongyao{
+    font-size: 30px;
+}
+.s2{
+    overflow: hidden;
+    height: 33px;
+    line-height: 33px;
+    font-size: 16px;
+    color: #039;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+/* -------------乡村集市------------- */
+.ThiBox{
+    overflow: hidden;
+    width: 100%;
+    display: flex;
+}
+.BoxLeft{
+    border: 1px solid #000;
+    margin: 15px;
+    border-radius: 16px;
+    width: 60%;
+}
+.BoxRight{
+    float: right;
+    width: 40%;
+}
+.BoxTxt{
+    padding: 15px;
+}
+.BoxTxt p{
+    font-size: 12px;
+}
+.RightTop{
+    border: 1px solid #000;
+    margin: 15px;
+    border-radius: 16px;
+}
+.RightBottom{
+    border: 1px solid #000;
+    margin: 15px;
+    border-radius: 16px;
+}
+.LeftBottom img{
+    float: left;
+    width: 80px;
+}
+.rightTxt{
+    float: right;
+    margin-top: 20px;
+}
+.BottomDown{
+    border: 1px solid #000;
+    border-radius: 6px;
+    font-size: 12px;
+    /* margin-right: 30px; */
+}
+.BottomDown span{
+    padding: 3px;
+}
+#yanse{
+    color: #c00;
+}
+.leftBottomOne{
+    display: flex;
+    justify-content: space-between;
+}
+.leftBottomTwo{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* -------------广告1------------- */
+.midFou{
+    margin: 20px;
+}
+.midFou img{
+    width: 100%;
+}
+
+/* -------------广告2------------- */
+.midFiv{
+    margin: 20px;
+}
+.outBox{
+    display: flex;
+    width: 100%;
+    text-align: center;
+}
+.outBox img{
+    /* width: 30px; */
+    width: 100%;
+}
+.FivLeft, .FiveRight{
+    width: 50%;
+}
+
+/* -------------广告3------------- */
+.midSix{
+    margin: 20px;
+}
+.sixOutBox{
+    display: flex;
+    width: 100%;
+    text-align: center;
+}
+.sixOutBox img{
+    /* width: 30px; */
+    width: 100%;
+}
+.SixLeft, .Sixmiddle, .SixRight{
+    width: 33%;
+}
+
+/* -------------中债------------- */
+.SevOutBox{
+    border: 1px solid #000;
+    border-radius: 16px;
+    margin: 30px;
+}
+.BoxBottom{
+    display: flex;
+    width: 100%;
+    margin-top: 20px;
+}
+.BoxBottom p{
+    font-size: 12px;
+}
+.left, .middle, .right{
+    /* text-align: center; */
+    width: 33%;
+}
+#hongse{
+    color: #c00;
+    font-size: 20px;
+}
+.right p{
+    margin-top: 25px;
+}
+
+/* -------------乡村资讯------------- */
+ul{
+    list-style:none;
+}
+a{
+    text-decoration: none;
+}
+.jlist{
+}
+.jlist li{
+    display: flex;
+    border-bottom: 1px dotted #ccc;
+    margin-bottom: 8px;
+    padding-bottom: 4px;
+}
+.jlist img{
+    width: 90px;
+}
+.txt{
+    margin-left: 8px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 1;
+}
+.txt h3{
+    font-size: 14px;
+    line-height: 33px;
+    width: 100%;
+}
+.txt a{
+    color: #030;
+}
+.txt span{
+    font-size: 12px;
+    line-height: 22px;
+    color: #999;
+}
+.author{
+    margin-left: 8px;
+}
+.time{
+    margin-right: 8px;
+    flex-grow: 1;
+    text-align: right;
+}

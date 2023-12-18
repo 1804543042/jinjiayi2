@@ -1,0 +1,394 @@
+/* 全局变量 */
+.icon {
+    width: 1em;
+    height: 1em;
+    vertical-align: -0.15em;
+    fill: currentColor;
+    overflow: hidden;
+  }
+  body,p,ul{
+      padding: 0;
+      margin: 0;
+  }
+  a{
+      text-decoration: none;
+  }
+  /* -------------下导航------------- */
+  .bnav{
+      /* 固定 */
+      position: fixed;
+      width: 100%;
+      left: 0;
+      bottom: 0;
+      background-color: #eee;/* 没有背景，设置为白色#fff */
+      z-index: 9;
+  }
+  body{
+      margin-bottom: 50px;/* 加下导航也能看全 */
+  }
+  .btnav{
+    display: flex;
+  }
+.bonav{
+    width: 20%;
+    justify-content: center;
+    text-align: center;
+    /* position: relative; */
+}
+.bonav svg{
+    font-size: 30px;
+}
+.bonav p{
+    font-size: 14px;
+    line-height: 20px;
+}
+#q{
+    color: rgb(26, 250, 41);
+  }
+.bonav a{
+    color: #333;
+} 
+
+  /* .dot{    加点
+      position: absolute;
+      right: -3px;
+      top: 0;
+      width: 10px;
+      height: 10px;
+      border-radius: 5px;
+      background-color: #c00;
+  } */
+
+
+
+/* -------------上导航------------- */
+.top{
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0;
+    background-color: #333;/* 没有背景，设置为白色#fff */
+    background-color: rgba(0, 0, 0, .5);
+    z-index: 9;
+}
+.topt{
+    justify-content: center;
+    text-align: center;
+}
+.topt p{
+    font-size: 12px;
+}
+.icon-31dingwei{
+    font-size: 20px;
+}
+.topth{
+    margin-top: 5px;
+    display: flex;
+}
+.topt svg{
+    font-size: 20px;
+    margin: 0 4px;
+}
+.topo{
+    display: flex;
+    padding: 6px 12px;
+} 
+.top a{
+    color: #333;
+}
+.search-container{
+    border-radius: 15px;
+    background-color: #fff;
+    display: flex;
+    flex-grow: 1;
+}
+.icon-sousuoxiao{
+    margin: 12px 12px;
+    font-size: 14px;
+}
+#search{
+    border: none;
+    outline: none;/* 轮廓去掉 */
+    flex-grow: 1;
+    margin-right: 20px;
+}
+.imgbc{
+    display: flex;
+}
+.imgbco{
+    width: 1200px;
+    flex-grow: 1;
+}
+.imgbc img{
+    width: 100%;
+}
+
+/* -------------生活缴费------------- */
+.midFir{
+    margin-top: 100px;
+}
+.midFirOutBox{
+    border: 1px solid #eee;
+    border-radius: 16px;
+    margin: 30px;
+    display: flex;
+    box-shadow: 5px 5px 5px #eee;
+}
+.midFirMod{
+    width: 25%;
+    justify-content: center;
+    text-align: center;
+    /* position: relative; */
+    margin: 20px 0;
+}
+.icon-shenghuojiaofei{
+    font-size: 30px;
+    box-shadow: 8px 7px 5px rgb(9, 218, 163);
+}
+.icon-izhaozijin{
+    font-size: 30px;
+    box-shadow: 8px 7px 5px rgb(255, 155, 105);
+}
+.icon-yewurenyuanxinxiguanli{
+    font-size: 30px;
+    box-shadow: 8px 7px 5px rgb(9, 218, 163);
+}
+.icon-yewu_douzi{
+    font-size: 30px;
+    box-shadow: 8px 7px 5px rgb(255, 155, 105);
+}
+.midFirMod p{
+    margin-top: 20px;
+}
+
+/* -------------校园------------- */
+ul{
+    list-style: none;
+}
+.midSec ul{
+    display: flex;
+    /* width: 100%; */
+    flex-wrap: wrap;
+}
+.midSec li{
+    width: 20%;
+    /* display: flex; */
+    justify-content: center;
+    /* flex-wrap: wrap; */
+    flex-grow: 1;
+}
+.midSecMod{
+    text-align: center;
+    position: relative;
+}
+.midSecMod span{
+    font-size: 30px;
+}
+.midSecMod p{
+    font-size: 14px;
+    line-height: 20px;
+}
+.midSecMod a{
+    color: #333;
+}
+
+/* -------------热门活动------------- */
+.midThi{
+    border-bottom: 1px solid #eee;
+    margin: 30px;
+}
+.ThiOutBox{
+    margin: 30px 0;
+}
+.swiper3 {
+    width: 100%;
+    /* height: 100%; */
+}
+.s3 .swiper-slide{
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#biankuang{
+    border: 1px solid #000;
+    background-color: #cc0;
+    padding: 30px 60px;
+    border-radius: 16px;
+}
+
+/* -------------选项卡------------- */
+.main {
+    /* height: 505px; */
+    /* width: 205px; */
+    /* width: 100%; */
+    margin-top: 100px;
+    /* margin-left: 100px; */
+    border: 1px solid #ddd;
+    font-size: 12px;
+}
+
+.main .box ul .last {
+    border-bottom-style: none;
+}
+
+.main .midFoutop ul li {
+    list-style-type: none;
+    float: left;
+    height: 20px;
+    width: 45px;
+    margin-left: 10px;
+    line-height: 20px;
+    text-align: center;
+    position: relative;
+}
+
+.none {
+    display: none;
+}
+
+.main .box ul li .text {
+    line-height: 20px;
+    height: 65px;
+    /* width: 220px; */
+    /* float: left; */
+    margin-left: 2px;
+}
+
+.main .box ul li .text .red {
+    color: #888;
+    font-weight: bold;
+    /* float: left; */
+    /* width: 150px; */
+}
+
+/* .main .box ul li .text .price {
+    width: 40px;
+    float: left;
+    color: #a0a0a0;
+    font-weight: bold;
+    text-decoration: line-through;
+} */
+
+.midFoutop .selected {
+    background-color: #bd0703;
+    color: #FFF;
+    position: relative;
+}
+
+/* .midFoutop .pic {
+    background-position: -102px -127px;
+    background-image: url(img/spirit.png);
+    height: 4px;
+    left: 42%;
+    position: absolute;
+    top: 21px;
+    width: 8px;
+    display: none;
+} */
+
+.main .box ul li .text strong {
+    /* height: 40px; */
+    /* width: 110px; */
+    overflow: hidden;
+    display: block;
+    /* font-weight: 800;
+    font-size: 16px; */
+}
+.main .box ul li .img img {
+    text-align: center;
+    /* margin-top: 2px;
+    margin-left: 3px; */
+    width: 50%;
+}
+
+.main .midFoutop {
+    height: 20px;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #c80300;
+    padding-top: 10px;
+    margin-bottom: 15px;
+}
+
+
+.main .title {
+    height: 30px;
+    border-bottom-color: #ddd;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    line-height: 30px;
+    font-weight: bold;
+    padding-left: 10px;
+}
+
+.main .box ul li {
+    list-style-type: none;
+    /* height: 75px; */
+    /* width: 180px; */
+    width: 100%;
+    /* margin-right: 10px;
+    margin-left: 10px; */
+    /* border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #ddd; */
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+.main .box ul li .Left{
+    /* margin: 20px; */
+    /* border: 1px solid #000; */
+    width: 50%;
+}
+.main .box ul li .Right{
+    /* margin: 20px; */
+    /* border: 1px solid #000; */
+    width: 50%;
+}
+.main .box ul li .Left .Box, .Right .Box{
+    text-align: center;
+    /* justify-content: center; */
+    margin: 20px;
+    border: 1px solid #000;
+}
+
+/* .main .box ul li .img .pic1 {
+    background-position: 0 -109px;
+    background-image: url(img/spirit.png);
+    color: #FFFFFF;
+    font: bold 10px Tahoma;
+    height: 20px;
+    left: 0;
+    padding-left: 2px;
+    position: absolute;
+    top: 0;
+    width: 18px;
+} */
+
+/* .main .box ul li .img .pic2 {
+    background-position: 0 -132px;
+    background-image: url(img/spirit.png);
+    color: #FFFFFF;
+    font: bold 10px Tahoma;
+    height: 20px;
+    left: 0;
+    padding-left: 2px;
+    position: absolute;
+    top: 0;
+    width: 18px;
+} */
+
+/* .main .box ul li .img {
+    position: relative;
+    height: 65px;
+    width: 65px;
+    float: left;
+    border: 1px solid #f2f2f2;
+} */
+/* 
+.midFoutop .selected .pic {
+    display: block;
+} */

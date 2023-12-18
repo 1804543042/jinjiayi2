@@ -1,0 +1,508 @@
+/* 全局变量 */
+*{
+    margin: 0;
+    padding: 0;
+}
+.icon {
+    width: 1em;
+    height: 1em;
+    vertical-align: -0.15em;
+    fill: currentColor;
+    overflow: hidden;
+  }
+  a{
+      text-decoration: none;
+  }
+  /* -------------下导航------------- */
+  .bnav{
+      /* 固定 */
+      position: fixed;
+      width: 100%;
+      left: 0;
+      bottom: 0;
+      background-color: #eee;/* 没有背景，设置为白色#fff */
+      z-index: 9;
+  }
+  body{
+     margin-bottom: 50px; /* 加下导航也能看全 */
+  } 
+  .btnav{
+    display: flex;
+  }
+.bonav{
+    width: 20%;
+    justify-content: center;
+    text-align: center;
+    /* position: relative; */
+}
+.bonav svg{
+    font-size: 30px;
+}
+.bonav p{
+    font-size: 14px;
+    line-height: 20px;
+}
+#q{
+    color: rgb(26, 250, 41);
+  }
+.bonav a{
+    color: #333;
+} 
+
+  /* -------------上导航------------- */
+.top{
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0;
+    background-color: #333;/* 没有背景，设置为白色#fff */
+    background-color: rgba(0, 0, 0, .5);
+    z-index: 9;
+}
+.topt{
+    justify-content: center;
+    text-align: center;
+}
+.topt p{
+    font-size: 12px;
+}
+.topt svg{
+    font-size: 20px;
+    margin: 0 4px;
+}
+.topo{
+    display: flex;
+    padding: 6px 12px;
+} 
+.top a{
+    color: #333;
+}
+.search-container{
+    border-radius: 15px;
+    background-color: #fff;
+    display: flex;
+    flex-grow: 1;
+}
+.icon-sousuoxiao{
+    margin: 12px 12px;
+    font-size: 14px;
+}
+#search{
+    border: none;
+    outline: none;/* 轮廓去掉 */
+    flex-grow: 1;
+    margin-right: 20px;
+}
+.imgbc{
+    display: flex;
+}
+.imgbco{
+    width: 1200px;
+    flex-grow: 1;
+}
+.imgbc img{
+    width: 100%;
+}
+
+
+/* -------------我的账户------------- */
+.midFir{
+    margin-top: 100px;
+}
+.midFirOutBox{
+    border: 1px solid #eee;
+    border-radius: 16px;
+    margin: 30px;
+    display: flex;
+    box-shadow: 5px 5px 5px #eee;
+}
+.midFirMod{
+    width: 25%;
+    justify-content: center;
+    text-align: center;
+    /* position: relative; */
+    margin: 20px 0;
+}
+.icon-wodezhanghu{
+    font-size: 30px;
+    box-shadow: 8px 7px 5px rgb(9, 218, 163);
+}
+.icon-zhuanzhang{
+    font-size: 30px;
+    box-shadow: 8px 7px 5px rgb(255, 155, 105);
+}
+.icon-shouzhifenxi{
+    font-size: 30px;
+    box-shadow: 8px 7px 5px rgb(9, 218, 163);
+}
+.icon-saoyisao{
+    font-size: 30px;
+    box-shadow: 8px 7px 5px rgb(255, 155, 105);
+}
+.midFirMod p{
+    margin-top: 20px;
+}
+
+/* -------------信用卡------------- */
+ul{
+    list-style: none;
+}
+.midSec ul{
+    display: flex;
+    /* width: 100%; */
+    flex-wrap: wrap;
+    margin: 20px;
+}
+.midSec li{
+    width: 20%;
+    /* display: flex; */
+    justify-content: center;
+    /* flex-wrap: wrap; */
+    flex-grow: 1;
+}
+.midSecMod{
+    text-align: center;
+    position: relative;
+}
+.midSecMod span{
+    font-size: 30px;
+}
+.midSecMod p{
+    font-size: 14px;
+    line-height: 20px;
+}
+.midSecMod a{
+    color: #333;
+}
+
+/* -------------头条------------- */
+.midThi{
+    margin: 0 30px;
+    border-top: 1px solid #000;
+}
+.midThiBox{
+    display: flex;
+    justify-content: center;
+}
+.title{
+    float: left;
+    font-size: 16px;
+    font-weight: normal;
+    margin: 0;
+    margin-left: 20px;
+    margin-top: 5px;
+}
+.s3{
+    overflow: hidden;
+    height: 33px;
+    line-height: 33px;
+    font-size: 16px;
+    color: #039;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+
+/* -------------美元------------- */
+.midFou{
+    border: 1px solid #eee;
+    border-radius: 16px;
+    margin: 30px 30px;
+    box-shadow: 6px 6px 5px #eee;
+}
+.midFouBox{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 100%;
+}
+
+.Foutxt span:nth-child(1){
+    color: rgb(169, 136, 101);
+}
+
+/* -------------广告横向滑动------------- */
+.midFiv{
+    height: 100px;
+    text-align: center;
+    border: 1px solid #fff;
+    border-radius: 16px;
+    margin-top: 30px;
+}
+.s2 {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ 
+.swiper-slide>img {
+    height: 100%;
+    object-fit: cover;
+    justify-content: center;
+}
+
+/* -------------金融小秘书------------- */
+.midSix{
+    
+    margin: 30px;
+    border-radius: 16px;
+    border: 1px solid #000;
+}
+.midSixOutBox{
+    /* display: flex; */
+    margin-top: 20px;
+}
+.midSixFLine{
+    display: flex;
+}
+.strong{
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 15px;
+}
+.ZhiNeng{
+    border-radius: 10px;
+    border: 1px solid #000;
+    border-top-left-radius: 1px;
+    background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fdb, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #53cffe, #41dfff, #46eefa, #5ffbf1);
+    margin-left: 50px;
+    justify-content: center;
+    font-size: 12px;
+    /* text-align: center; */
+}
+.ZhiNeng p{
+    padding: 3px 15px;
+    color: #fff;
+    font-size: 14px;
+}
+.SheZhi{
+    border-radius: 20px;
+    background-color: #fecd64;
+    float: right;
+    margin-right: 15px;
+}
+.SheZhi p{
+    padding: 5px 10px;
+    color: #fff;
+    font-size: 12px;
+}
+.midSixThiLine{
+    margin-left: 15px;
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+.midSixThiLineRight{
+    margin-left: 10px;
+    border-left: 1px solid #000;
+}
+.midSixThiLineRight p{
+    padding-left: 10px;
+}
+
+/* -------------政务民生------------- */
+.midSev{
+    margin: 30px;
+}
+.midSevBox{
+    
+}
+.midSevOutBox{
+    border-radius: 20px;
+    border: 1px solid #000;
+    padding-top: 20px;
+    margin-top: 20px;
+}
+.midSevTopPartFL, .midSevTopPartSl{
+    margin-left: 15px;
+}
+.midSevTopPartSl{
+    margin-top: 5px;
+}
+.midSevTopPartSl :nth-child(1){
+    border-right: 1px solid #000;
+}
+.midSevBotBox{
+    display: flex;
+}
+.midSevFont{
+    width: 25%;
+    justify-content: center;
+    text-align: center;
+    /* position: relative; */
+    margin: 20px 0;
+}
+.icon-shenfenzhengguishudichaxun01{
+    font-size: 30px;
+}
+.icon-dunpaibaoxianrenzheng_o{
+    font-size: 30px;
+}
+.icon-a-xingzhuang2{
+    font-size: 30px;
+}
+.icon-shenghuojiaofei{
+    font-size: 30px;
+}
+
+/* -------------财富精选------------- */
+.midEig{
+    margin: 30px;
+}
+.s8{
+     width: 100%;
+    height: 100%;
+     text-align: center;
+    font-size: 18px;
+     background: #fff;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.outbox{
+    border: 1px solid #000;
+    border-radius: 16px;
+    padding: 20px 0;
+    margin-top: 20px;
+}
+
+/* -------------优选基金------------- */
+.midNine{
+    margin: 30px;
+}
+.midNineOutBox{
+    border: 1px solid #000;
+    border-radius: 16px;
+    display: flex;
+    width: 100%;
+    margin-top: 20px;
+}
+.AllLeft{
+    display: flex;
+    flex-direction: column;
+    width: 10%;
+}
+.AllLeft span{
+    margin-left: 15px;
+    margin-top: 15px;
+    font-size: 30px;
+}
+.AllRight{
+    width: 90%;
+}
+.nineTop, .nineMiddle, .nineBottom{
+    display: flex;
+    justify-content: space-evenly;
+}
+.nineTop, .nineMiddle{
+    border-bottom: 1px solid #eee;
+}
+.TopLeft>h2{
+    color: #c00;
+}
+.TopRight h4{
+    margin: 5px 0;
+}
+.AllRight p{
+    font-size: 12px;
+}
+
+/* -------------热门活动------------- */
+.midTen{
+    margin: 30px;
+}
+.TenOutBox{
+    margin-top: 20px;
+}
+.swiper10 {
+    width: 100%;
+    /* height: 100%; */
+}
+.s10 .swiper-slide{
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#biankuang{
+    border: 1px solid #000;
+    background-color: #cc0;
+    padding: 30px 60px;
+    border-radius: 16px;
+}
+
+/* -------------乡村集市------------- */
+.midEle{
+    margin: 30px;
+}
+.midEleBox{
+    margin: 30px;
+}
+.midEleBox img{
+    width: 100%;
+    height: 100%;
+    
+}
+
+/* -------------资讯------------- */
+.midTwe{
+    margin: 30px;
+}
+ul,h3{
+    padding: 0;
+    margin: 0;
+}
+ul{
+    list-style:none;
+}
+a{
+    text-decoration: none;
+}
+.jlist{
+    margin-top: 20px;
+}
+.jlist li{
+    display: flex;
+    border-bottom: 1px dotted #ccc;
+    margin-bottom: 8px;
+    padding-bottom: 4px;
+}
+.jlist img{
+    width: 90px;
+}
+.txt{
+    margin-left: 8px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 1;
+}
+.txt h3{
+    font-size: 14px;
+    line-height: 33px;
+    width: 100%;
+}
+.txt a{
+    color: #030;
+}
+.txt span{
+    font-size: 12px;
+    line-height: 22px;
+    color: #999;
+}
+.author{
+    margin-left: 8px;
+}
+.time{
+    margin-right: 8px;
+    flex-grow: 1;
+    text-align: right;
+}

@@ -1,0 +1,142 @@
+{
+  "id": "4286008",
+  "name": "三级项目-homepage-yanse",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "586728",
+      "name": "alisis",
+      "font_class": "alisis-se",
+      "unicode": "e690",
+      "unicode_decimal": 59024
+    },
+    {
+      "icon_id": "15112769",
+      "name": "财富",
+      "font_class": "caifu-se",
+      "unicode": "e613",
+      "unicode_decimal": 58899
+    },
+    {
+      "icon_id": "33986999",
+      "name": "首页-置灰",
+      "font_class": "shouye-zhihui-se",
+      "unicode": "e61d",
+      "unicode_decimal": 58909
+    },
+    {
+      "icon_id": "201228",
+      "name": "3.1我的",
+      "font_class": "wode-se",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "796472",
+      "name": "生活",
+      "font_class": "shenghuo1-se",
+      "unicode": "e625",
+      "unicode_decimal": 58917
+    },
+    {
+      "icon_id": "2076426",
+      "name": "搜索小",
+      "font_class": "sousuoxiao",
+      "unicode": "e8d6",
+      "unicode_decimal": 59606
+    },
+    {
+      "icon_id": "4244909",
+      "name": "023-语音输入中",
+      "font_class": "-yuyinshuruzhong",
+      "unicode": "e60a",
+      "unicode_decimal": 58890
+    },
+    {
+      "icon_id": "5759518",
+      "name": "切换",
+      "font_class": "qiehuan",
+      "unicode": "e789",
+      "unicode_decimal": 59273
+    },
+    {
+      "icon_id": "9673169",
+      "name": "消息",
+      "font_class": "xiaoxi",
+      "unicode": "e60b",
+      "unicode_decimal": 58891
+    },
+    {
+      "icon_id": "9713067",
+      "name": "客服",
+      "font_class": "kefu",
+      "unicode": "e686",
+      "unicode_decimal": 59014
+    },
+    {
+      "icon_id": "36723698",
+      "name": "抽奖-线",
+      "font_class": "choujiang-xian",
+      "unicode": "e608",
+      "unicode_decimal": 58888
+    },
+    {
+      "icon_id": "579624",
+      "name": "信用卡",
+      "font_class": "xinyongqia",
+      "unicode": "e785",
+      "unicode_decimal": 59269
+    },
+    {
+      "icon_id": "729130",
+      "name": "我的基金",
+      "font_class": "jijin",
+      "unicode": "e611",
+      "unicode_decimal": 58897
+    },
+    {
+      "icon_id": "1172660",
+      "name": "小喇叭",
+      "font_class": "xiaolaba",
+      "unicode": "e628",
+      "unicode_decimal": 58920
+    },
+    {
+      "icon_id": "2078796",
+      "name": "dkw_贷款",
+      "font_class": "dkw_daikuan",
+      "unicode": "e601",
+      "unicode_decimal": 58881
+    },
+    {
+      "icon_id": "16746105",
+      "name": "全部",
+      "font_class": "quanbu",
+      "unicode": "e609",
+      "unicode_decimal": 58889
+    },
+    {
+      "icon_id": "20226403",
+      "name": "存款",
+      "font_class": "cunkuan",
+      "unicode": "e622",
+      "unicode_decimal": 58914
+    },
+    {
+      "icon_id": "27876645",
+      "name": "支付 钱包 待支付",
+      "font_class": "a-zhifuqianbaodaizhifu",
+      "unicode": "e63f",
+      "unicode_decimal": 58943
+    },
+    {
+      "icon_id": "33096093",
+      "name": "理财产品",
+      "font_class": "licaichanpin",
+      "unicode": "100f2",
+      "unicode_decimal": 65778
+    }
+  ]
+}
